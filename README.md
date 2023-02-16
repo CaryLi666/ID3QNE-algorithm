@@ -8,7 +8,6 @@ Architecture of ID3QNE algorithm. The real-time treatment process of the ID3QNE 
 ## Acknowledgement
 If you use code or concepts available in this repository, we would be grateful if you would:
 cite the paper: 
-
 GB/T 7714: Wu X D, Li R C, He Z, et al. A value-based deep reinforcement learning model with human expertise in optimal treatment of sepsis[J]. npj Digital Medicine, 2023, 6(1): 15.
 
 MLA: Wu, XiaoDan, et al. "A value-based deep reinforcement learning model with human expertise in optimal treatment of sepsis." npj Digital Medicine 6.1 (2023): 15.
@@ -25,6 +24,7 @@ APA: Wu, X., Li, R., He, Z., Yu, T., & Cheng, C. (2023). A value-based deep rein
   year={2023},
   publisher={Nature Publishing Group UK London}
 }
+
 
 The open-source MIMIC-III data used in this present study can be retrieved from https://physionet.org/content/mimiciii/1.4/.
 The open-source eICU-RI data: http://eicu-crd.mit.edu/
