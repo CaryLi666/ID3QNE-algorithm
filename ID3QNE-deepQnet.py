@@ -116,7 +116,7 @@ class Dist_DQN(object):
         log_Q_experience = Q_dist_target[range_batch, next_action.squeeze(1)]
         Q_experi = torch.where(SOFA < 4, log_Q_experience, Q_dist_star)
         targetQ1 = reward + (gamma * Q_experi * end_multiplier)
-        return nn.SmoothL1Loss()(targetQ1, log_Q_dist_prediction1)
+        return nn.SmoothL1Loss()(targetQ1, log_Q_dist_prediction1) 
 
     def get_action(self, state):
         with torch.no_grad():
