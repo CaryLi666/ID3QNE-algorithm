@@ -69,7 +69,7 @@ if __name__ == '__main__':
     # =========================第二个图===================================================================
     ax2 = fig.add_subplot(133, projection='3d')
 
-    IDDE_actions = np.load('ID3QNE/Q值/agent_actionsb.npy', allow_pickle=True)
+    IDDE_actions = np.load('IDDE/Q值/agent_actionsb.npy', allow_pickle=True)
 
     IDDE_actions_tuple = [None for i in range(len(IDDE_actions))]
     for i in range(len(IDDE_actions)):
