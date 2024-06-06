@@ -1,5 +1,5 @@
 import time
-import pickle  # 打开pkl包
+import pickle  
 import numpy as np
 import pandas as pd
 import torch
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     max_phys_b = max(phys_b)
     min_phys_b = min(phys_b)
 
-    bin_medians = []  # %医生的预计汇报中的死亡率，每个人都有一个状态，对应一个Q值，每个Q值大小对应是否死亡
+    bin_medians = []  
     mort = []
     mort_std = []
 
