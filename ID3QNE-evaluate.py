@@ -4,7 +4,7 @@ import warnings
 import torch.nn.functional as F
 
 warnings.filterwarnings("ignore")
-device = 'cpu'
+device = 'cpu' 
 
 
 def do_eval(model, batchs, batch_size=128):
