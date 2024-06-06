@@ -9,7 +9,7 @@ import torch.optim
 import torch.nn.functional as F
 import copy
 import os
-gamma = 0.99
+gamma = 0.9
 device='cpu'
 
 
@@ -42,7 +42,7 @@ class dist_DQN(object):
                  v_max=20,
                  v_min=-20,
                  device='cpu',
-                 gamma=0.999,
+                 gamma=0.9,
                  tau=0.005,
                  n_atoms=51
                  ):
