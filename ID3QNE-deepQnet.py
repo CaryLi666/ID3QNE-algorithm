@@ -5,7 +5,7 @@ import torch.optim
 import torch.nn.functional as F
 import copy
 
-# gamma = 0.99
+# gamma = 0.9
 device = 'cpu'
 
 
