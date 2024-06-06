@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 
 loss_8=np.load('第一次数据保存全/8小时验证集/mean_agent_q.npy',allow_pickle=True)
-loss_6=np.load('验证集/mean_agent_q.npy',allow_pickle=True)
-loss_4=np.load('4小时验证集/mean_agent_q.npy',allow_pickle=True)
+loss_6=np.load('第一次数据保存全/6小时验证集/mean_agent_q.npy',allow_pickle=True)
+loss_4=np.load('第一次数据保存全/4小时验证集/mean_agent_q.npy',allow_pickle=True)
 loss_2=np.load('第一次数据保存全/2小时验证集/mean_agent_q.npy',allow_pickle=True)
 loss_1=np.load('第一次数据保存全/1小时验证集/mean_agent_q.npy',allow_pickle=True)
 
@@ -15,11 +15,11 @@ loss_length = list(range(len(loss_8)))
 plt.figure()
 
 
-plt.plot(loss_length ,loss_8,'-o',label= '1 hour',markersize=3,color='burlywood')
-plt.plot(loss_length ,loss_6,'-v',label= '2 hours',markersize=4,color='plum')
+plt.plot(loss_length ,loss_8,'-o',label= '8 hour',markersize=3,color='burlywood')
+plt.plot(loss_length ,loss_6,'-v',label= '6 hours',markersize=3,color='plum')
 plt.plot(loss_length ,loss_4,'-',label= '4 hours',markersize=3,color='red')
-plt.plot(loss_length ,loss_2,'--',label= '6 hours',markersize=3,color='cornflowerblue')
-plt.plot(loss_length ,loss_1,'-.',label= '8 hours',markersize=3,color='lime')
+plt.plot(loss_length ,loss_2,'--',label= '2 hours',markersize=3,color='cornflowerblue')
+plt.plot(loss_length ,loss_1,'-.',label= '1 hours',markersize=3,color='lime')
 
 
 font1 = {'family': 'Arial', 'weight': 'normal','size':12}
