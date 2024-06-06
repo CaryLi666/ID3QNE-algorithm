@@ -27,5 +27,5 @@ if __name__ == '__main__':
     # 保存到文件
     np.save('数据集/train.npy', train)
     np.save('数据集/validation.npy', validation)
-    np.save('数据集/test.npy', test)
+    np.save('数据集/test.npy', test) 
 
